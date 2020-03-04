@@ -50,7 +50,20 @@ ul {
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-  display: none;
+  /* display: none; */
+}
+
+ul:before {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #1b1b1b;
+  top: -10px;
+  right: 15px;
+  transform: rotate(45deg);
+  z-index: -1;
+  
 }
 
 ul li {
