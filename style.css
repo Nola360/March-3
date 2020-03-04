@@ -32,11 +32,11 @@
   transition: width .6s;
 }
 
-.button:hover {
+.button.expand {
   width: 100%;
 }
 
-.fas:hover:before {
+.fas.expand:before {
   content: '\f00d';
 }
 
@@ -50,6 +50,7 @@ ul {
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  display: none;
 }
 
 ul li {
